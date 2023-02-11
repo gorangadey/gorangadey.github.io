@@ -33,6 +33,53 @@
         #section-home div:first-child{
             padding: 20px;
         }
+        .two-projects{
+            display: flex;
+        }
+        .two-projects img{
+        height: 300px;
+        
+        }
+        .two-projects > div{
+            width: 50%;
+            
+            padding: 20px;
+            border-radius: 20px;
+
+        }
+        #section-projects{
+            margin: 20px;
+        }
+        .two-projects>div:first-child{
+            background-color: #ecebfd;
+            margin-right: 10px;
+        }
+        
+        .two-projects>div:last-child{
+            background-color: #2d3542;
+            margin-left: 10px;
+            color: white;
+        }
+        .third-project{
+            padding: 20px;
+            margin: 20px 0;
+            background-image: linear-gradient(to bottom right, #5f30af, #9947b1);
+            color: #fff;
+            border-radius: 20px;
+
+        }
+        .third-projects img{
+            height: 400px;
+        }
+        #section-contact{
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+            padding: 20px;
+            background-image: linear-gradient(to top right, #eee, #555);
+            border-radius: 20px;
+        }
+        
     </style>
 </head>
 <body>
@@ -65,8 +112,8 @@
            <img src="images/gord.png" alt="" /> 
         </div>
     </section>
-    <section id="section-project">
-        <div>
+    <section id="section-projects">
+        <div class="two-projects">
             <!--first two projects-->
             <div>
                 <h1>Paymento</h1>
@@ -79,11 +126,35 @@
                 <img src="images/taskit.png" alt="" />
             </div>
         </div>
-        <div>
+        <div class="third-project">
             <!--third prject-->
             <h1>Piyuu</h1>
             <p>Freelancing platform for individuals</p>
             <img src="images/piyuu.png" alt="" />
+        </div>
+
+    </section>
+    <section id="section-contact">
+        <!--How to contact description-->
+        <div>
+            <!--How to connect-->
+            <h1>Want to work together?</h1>
+            <p>Feel free to reach ut for collaboration or a friendly hello</p>
+            <a href="mailto:gourdey573@gamil.com">train@torqbit.com</a>
+        
+        </div>
+        <div>
+            <!--Connection links-->
+            <h2>Connect with me</h2>
+            <div>
+                <a href="https://www.linkedin.com/in/shadamez">
+                <img src="images/linkedin.png" alt="">
+                </a>
+
+                <a href="https://twitter.com/ShadAmez">
+                    <img src="images/twitter.png" alt="">
+                </a>
+            </div>
         </div>
 
     </section>
